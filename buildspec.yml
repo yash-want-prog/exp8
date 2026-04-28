@@ -10,7 +10,7 @@ phases:
   pre_build:
     commands:
       - echo "Running Security Scan..."
-      - bandit -r . -f txt  || true
+      - bandit -r . -f txt || true
 
   build:
     commands:
